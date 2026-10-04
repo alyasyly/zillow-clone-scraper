@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 load_dotenv()
 
-FORM = os.getenv('FORM')
+FORM:str = os.getenv('FORM') or ''
 
 def fill_form(data):
     chrome_options = webdriver.ChromeOptions()
