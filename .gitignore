@@ -1,3 +1,5 @@
 .venv/
 .env
 eg.html
+__pycache__/
+__pycache__/
